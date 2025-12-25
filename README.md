@@ -1,6 +1,10 @@
 # <font style="color:rgb(31, 31, 31);">🏢</font><font style="color:rgb(31, 31, 31);"> 智能电梯调度模拟系统 (Smart Elevator Dispatch System)</font>
 <font style="color:rgb(31, 31, 31);">一个基于原生 JavaScript 和 Web Workers 实现的高仿真电梯调度系统。该项目模拟了现代写字楼中多部电梯的协同运行，包含拟物化的 UI 界面、真实的物理运行逻辑以及高效的调度算法。</font>
 
+## <font style="color:rgb(31, 31, 31);">🚀</font><font style="color:rgb(31, 31, 31);"> 在线演示</font>
+
+[<font style="color:rgb(11, 87, 208);">点击这里查看 Live Demo</font>](https://liu18194025391-cloud.github.io/Smart-Elevator-Dispatch-System/)
+
 ## <font style="color:rgb(31, 31, 31);">✨</font><font style="color:rgb(31, 31, 31);"> 核心特性</font>
 + **<font style="color:rgb(31, 31, 31);">⚡</font><font style="color:rgb(31, 31, 31);">️ 多线程架构</font>**<font style="color:rgb(31, 31, 31);">: 每一部电梯都在独立的 </font><font style="color:rgb(68, 71, 70);">Web Worker</font><font style="color:rgb(31, 31, 31);"> 线程中运行，互不阻塞，模拟真实的独立控制器。</font>
 + **<font style="color:rgb(31, 31, 31);">🧠</font><font style="color:rgb(31, 31, 31);"> 智能调度算法</font>**<font style="color:rgb(31, 31, 31);">: 采用 </font>**<font style="color:rgb(31, 31, 31);">LOOK 算法</font>**<font style="color:rgb(31, 31, 31);">（扫描算法）作为单梯运行策略，结合主线程的“代价评估函数”进行多梯任务分配，实现最优响应。</font>
@@ -10,10 +14,6 @@
     - <font style="color:rgb(31, 31, 31);">实时高亮的楼层按钮与控制面板。</font>
 + **<font style="color:rgb(31, 31, 31);">💾</font><font style="color:rgb(31, 31, 31);"> 高效状态管理</font>**<font style="color:rgb(31, 31, 31);">: 使用 </font>**<font style="color:rgb(31, 31, 31);">位掩码 (Bitmask)</font>**<font style="color:rgb(31, 31, 31);"> (</font><font style="color:rgb(68, 71, 70);">001</font><font style="color:rgb(31, 31, 31);">, </font><font style="color:rgb(68, 71, 70);">010</font><font style="color:rgb(31, 31, 31);">, </font><font style="color:rgb(68, 71, 70);">100</font><font style="color:rgb(31, 31, 31);">) 在一个整型数组中管理同层楼的多种请求（上行、下行、内呼），极大优化了状态判断逻辑。</font>
 + **<font style="color:rgb(31, 31, 31);">🔄</font><font style="color:rgb(31, 31, 31);"> 业务意图分离</font>**<font style="color:rgb(31, 31, 31);">: 引入“业务方向”与“物理方向”分离机制，完美处理“顺路接客”与“空车赶路”的复杂场景。</font>
-
-## <font style="color:rgb(31, 31, 31);">🚀</font><font style="color:rgb(31, 31, 31);"> 在线演示</font>
-
-[<font style="color:rgb(11, 87, 208);">点击这里查看 Live Demo</font>](https://liu18194025391-cloud.github.io/Smart-Elevator-Dispatch-System/)
 
 ## <font style="color:rgb(31, 31, 31);">🛠️</font><font style="color:rgb(31, 31, 31);"> 技术栈</font>
 + **<font style="color:rgb(31, 31, 31);">HTML5 / CSS3</font>**<font style="color:rgb(31, 31, 31);">: 用于构建楼层结构、控制面板及动画效果。</font>
