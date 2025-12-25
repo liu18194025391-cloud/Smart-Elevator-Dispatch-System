@@ -1,4 +1,4 @@
-# <font style="color:rgb(31, 31, 31);">🏢</font><font style="color:rgb(31, 31, 31);"> 智能电梯调度模拟系统 (Smart Elevator Dispatch System)</font>
+# <font style="color:rgb(31, 31, 31);">🏢</font><font style="color:rgb(31, 31, 31);"> 基于Web Workers 多线程并行的高仿真电梯调度系统</font>
 <font style="color:rgb(31, 31, 31);">一个基于原生 JavaScript 和 Web Workers 实现的高仿真电梯调度系统。该项目模拟了现代写字楼中多部电梯的协同运行，包含拟物化的 UI 界面、真实的物理运行逻辑以及高效的调度算法。</font>
 
 ## <font style="color:rgb(31, 31, 31);">🚀</font><font style="color:rgb(31, 31, 31);"> 在线演示</font>
