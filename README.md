@@ -13,7 +13,7 @@
 
 ## <font style="color:rgb(31, 31, 31);">🚀</font><font style="color:rgb(31, 31, 31);"> 在线演示</font>
 
-[<font style="color:rgb(11, 87, 208);">点击这里查看 Live Demo</font>](https://www.google.com/search?q=https://%E4%BD%A0%E7%9A%84%E7%94%A8%E6%88%B7%E5%90%8D.github.io/elevator-simulation/)
+[<font style="color:rgb(11, 87, 208);">点击这里查看 Live Demo</font>](https://liu18194025391-cloud.github.io/Smart-Elevator-Dispatch-System/)
 
 ## <font style="color:rgb(31, 31, 31);">🛠️</font><font style="color:rgb(31, 31, 31);"> 技术栈</font>
 + **<font style="color:rgb(31, 31, 31);">HTML5 / CSS3</font>**<font style="color:rgb(31, 31, 31);">: 用于构建楼层结构、控制面板及动画效果。</font>
